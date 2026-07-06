@@ -32,8 +32,8 @@ Le Build Week sono simulazioni di progetti aziendali reali svolte in team. Ogni 
 
 ### 🎬 Buildweek 4: Google Looker Studio – Analisi "Oscar Winners"
 * **Focus Tecnico**: Cloud Business Intelligence e Data Storytelling.
-* **Descrizione**: Sviluppo di un prodotto di BI interattivo basato sul dataset storico dei vincitori dei premi Oscar. Il lavoro si è concentrato su una fase massiccia di pulizia e normalizzazione dei record, culminata nella progettazione di una dashboard dinamica su **Looker Studio** ottimizzata per l'analisi dei trend cinematografici.
+* **Descrizione**: Sviluppo di un prodotto di BI interattivo basato sul dataset storico dei vincitori dei premi Oscar. Il lavoro si è concentrato su una fase massiccia di pulizia e normalizzazione dei record, culminata nella progettazione di un report su **Looker Studio** ottimizzato per l'analisi dei trend cinematografici.
 
 ### 🚴 Buildweek 5: Power BI – Enterprise BI su "Adventure Works"
 * **Focus Tecnico**: Data Modeling aziendale, DAX e reportistica avanzata.
-* **Descrizione**: Chiusura del percorso su uno dei business case standard più complessi del settore (Adventure Works). Il progetto ha previsto una solida fase di ETL per la pulizia e la normalizzazione delle tabelle, la creazione di un modello di dati relazionale (Schema a Stella) e la scrittura di metriche calcolate in **DAX** per popolare i visual della dashboard finale.
+* **Descrizione**: Chiusura del percorso su uno dei business case standard più complessi del settore (Adventure Works). Il progetto ha previsto una solida fase di ETL per la pulizia e la normalizzazione delle tabelle, la creazione di un modello di dati relazionale (Schema a Stella) e la scrittura di metriche calcolate in **DAX** per popolare i visual del report finale.
