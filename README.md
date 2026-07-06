@@ -1,18 +1,39 @@
 # 🚀 Progetti Build Week - Master EPICODE
 
-Questa repository raccoglie i progetti sviluppati durante le **Build Week** del Master part-time in Data Analytics (Settembre 2024 - Maggio 2025). 
-Le Build Week sono simulazioni intensive di progetti aziendali reali, svolte in team, che ricoprono l'intero ciclo di vita del dato: dall'estrazione e pulizia (EDAs) fino alla modellazione e visualizzazione finale.
+Questa repository raccoglie i progetti intensivi sviluppati durante le **Build Week** del Master in Data Analytics (Settembre 2024 - Maggio 2025). 
+
+Le Build Week sono simulazioni di progetti aziendali reali svolte in team. Ogni settimana ha rappresentato una sfida verticale su un pilastro dello stack tecnologico del Data Analyst, richiedendo flessibilità, collaborazione in stile Agile e la capacità di trasformare dati grezzi e disordinati in insight di business sotto scadenze serrate.
 
 ---
 
-## 📂 Progetti Sviluppati
+## 🛠️ Competenze e Soft Skills Sviluppate
+* **End-to-End Data Pipeline**: Gestione di tutto il ciclo di vita del dato, dall'estrazione (Web Scraping/DB) alla pulizia (ETL), fino alla modellazione e visualizzazione.
+* **Teamwork & Agile**: Coordinamento all'interno di un team di analisti per la spartizione dei task, la revisione del codice e il rispetto delle scadenze (Delivery).
+* **Data Cleansing Avanzato**: Normalizzazione e gestione di anomalie, valori nulli e incongruenze strutturali su tool differenti (Excel, SQL, Python, BI).
 
-### 🎤 1. Business Case: Festival di Sanremo
-Analisi storica e di impatto mediatico della kermesse musicale italiana.
-* **Il mio contributo speciale**: Di fronte alla mancanza di dati strutturati e puliti sul web, mi sono occupato personalmente del **Data Sourcing manuale**, estraendo e normalizzando i dati direttamente da fonti enciclopediche (Wikipedia) per metterli a disposizione del team in formato relazionale.
-* **Dataset Pubblico**: Il dataset completo e curato derivato da questo progetto è stato rilasciato open-source ed è consultabile qui: 👉 **[festival-sanremo-dataset](https://github.com/FreddyG98/festival-sanremo-dataset)** *(inserisci qui il link corretto)*.
-* **Tecnologie utilizzate**: Python (Pandas/NumPy) per l'analisi esplorativa, Microsoft Excel per la strutturazione dei dati.
+---
 
-### 📊 2. [Inserisci qui il nome della seconda Build Week, se presente]
-[Breve descrizione di 2 righe sul secondo progetto di gruppo fatto durante il corso, ad esempio se era sul marketing, sul retail, sul turismo o sulle emissioni CO2].
-* **Tecnologie utilizzate**: [Es. Power BI, SQL, Python]
+## 📂 I Progetti nel Dettaglio (Ordine Cronologico)
+
+### 📈 Buildweek 1: Excel & Power Query
+* **Focus Tecnico**: Manipolazione, pulizia e prima storicizzazione dei dati.
+* **Descrizione**: Analisi esplorativa condotta interamente su foglio di calcolo, automatizzando i processi di importazione e trasformazione dei dati grezzi tramite l'interfaccia ETL di **Power Query**. I task e i requisiti operativi del business case sono tracciati direttamente all'interno dei file di lavoro.
+
+### 🗄️ Buildweek 2: Database & SQL – Progetto "Restock Magazzino"
+* **Focus Tecnico**: Modellazione relazionale, progettazione DB e querying avanzato.
+* **Descrizione**: Risoluzione di un business case logico-gestionale incentrato sul riassortimento delle scorte. Il progetto ha coperto:
+  * Disegno dello schema concettuale e logico (Diagrammi E-R).
+  * Traduzione in DDL con script di creazione e popolamento tabelle.
+  * Scrittura di query complesse su **MySQL** per l'estrazione dei KPI critici sulle giacenze e la logistica.
+
+### 🐍 Buildweek 3: Python & Web Scraping
+* **Focus Tecnico**: Estrazione programmatica e analisi statistica.
+* **Descrizione**: Progetto mirato al recupero autonomo di dati non strutturati dal web. Abbiamo sviluppato uno script di **Web Scraping** per estrarre informazioni commerciali da un e-commerce di calzature. Il dataset ottenuto è stato successivamente importato, ripulito e analizzato tramite le librerie core di Python (**Pandas** e **NumPy**).
+
+### 🎬 Buildweek 4: Google Looker Studio – Analisi "Oscar Winners"
+* **Focus Tecnico**: Cloud Business Intelligence e Data Storytelling.
+* **Descrizione**: Sviluppo di un prodotto di BI interattivo basato sul dataset storico dei vincitori dei premi Oscar. Il lavoro si è concentrato su una fase massiccia di pulizia e normalizzazione dei record, culminata nella progettazione di una dashboard dinamica su **Looker Studio** ottimizzata per l'analisi dei trend cinematografici.
+
+### 🚴 Buildweek 5: Power BI – Enterprise BI su "Adventure Works"
+* **Focus Tecnico**: Data Modeling aziendale, DAX e reportistica avanzata.
+* **Descrizione**: Chiusura del percorso su uno dei business case standard più complessi del settore (Adventure Works). Il progetto ha previsto una solida fase di ETL per la pulizia e la normalizzazione delle tabelle, la creazione di un modello di dati relazionale (Schema a Stella) e la scrittura di metriche calcolate in **DAX** per popolare i visual della dashboard finale.
